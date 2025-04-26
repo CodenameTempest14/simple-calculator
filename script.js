@@ -28,8 +28,6 @@ function appendNumber(value) {
   updateDisplay(currentInput);
 }
 
-
-
 // Convert display operator to real operator
 function convertToJSOperator(op) {
   switch (op) {
@@ -96,5 +94,5 @@ document.querySelectorAll(".operation-btn").forEach(button => {
 });
 
 document.querySelector(".equal-btn").addEventListener("click", calculate);
-document.querySelector(".clear-entry").addEventListener("click", clearDisplay);
+  document.querySelector(".clear-entry").addEventListener("click", clearDisplay);
 document.querySelector(".decimal-btn")?.addEventListener("click", () => appendNumber("."));
