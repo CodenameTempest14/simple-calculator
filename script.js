@@ -28,8 +28,6 @@ function appendNumber(value) {
   updateDisplay(currentInput);
 }
 
-
-
 // Convert display operator to real operator
 function convertToJSOperator(op) {
   switch (op) {

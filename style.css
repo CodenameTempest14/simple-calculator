@@ -27,7 +27,6 @@ body {
   box-sizing: border-box;
 }
 
-
 .num-container {
   background-color: white;
   color: black;
@@ -112,9 +111,6 @@ body {
   align-items: center;
   gap: 10px;
 }
-
-
-
 
 .num-btn, .decimal-btn{
   padding: 20px;
